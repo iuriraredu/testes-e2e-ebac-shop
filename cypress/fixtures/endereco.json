@@ -1,0 +1,29 @@
+[
+    {
+        "pais": "Brasil",
+        "logradouro": "Rua do Escândalo Íntimo",
+        "numero": "24",
+        "cidade": "Tuparendi",
+        "estado": "Rio Grande do Sul",
+        "cep": "98940000",
+        "telefone": "5555987654321"
+    },
+    {
+        "pais": "Brasil",
+        "logradouro": "Rua do Vício Inerente",
+        "numero": "12",
+        "cidade": "Taiobeiras",
+        "estado": "Minas Gerais",
+        "cep": "39550000",
+        "telefone": "5538987654321"
+    },
+    {
+        "pais": "Brasil",
+        "logradouro": "Rua do Te Amo Lá Fora",
+        "numero": "11",
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "cep": "51230000",
+        "telefone": "5581987654321"
+    }
+]

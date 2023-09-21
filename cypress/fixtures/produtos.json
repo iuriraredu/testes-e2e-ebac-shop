@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Hollister Backyard Sweatshirt",
+        "tamanho": "XL",
+        "cor": "White",
+        "quantidade": 1,
+        "pagina": 4,
+        "valor":"R$52,00"
+    },
+    {
+        "nome": "Helena Hooded Fleece",
+        "tamanho": "M",
+        "cor": "Gray",
+        "quantidade": 1,
+        "pagina": 3,
+        "valor":"R$55,00"
+    },
+    {
+        "nome": "Daphne Full-Zip Hoodie",
+        "tamanho": "L",
+        "cor": "Purple",
+        "quantidade": 1,
+        "pagina": 2,
+        "valor":"R$59,00"
+    },
+    {
+        "nome": "Celeste Sports Bra",
+        "tamanho": "S",
+        "cor": "Yellow",
+        "quantidade": 1,
+        "pagina": 2,
+        "valor":"R$39,00"
+    }
+]
