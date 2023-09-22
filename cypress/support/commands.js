@@ -57,8 +57,7 @@ Cypress.Commands.add('realizarLoginNoCarrinho', (usuario) => {
     cy.get('.woocommerce-button').click();
 });
 
-Cypress.Commands.add('cadastroEnderecofaturamento',(
-    nome, sobrenome, empresa, pais, logradouro, numero, cidade, estado, cep, telefone, email) =>{
+Cypress.Commands.add('cadastroEnderecofaturamento',(nome, sobrenome, empresa, pais, logradouro, numero, cidade, estado, cep, telefone, email) =>{
     cy.get('#billing_first_name').clear().type(nome);
     cy.get('#billing_last_name').clear().type(sobrenome);
     cy.get('#billing_company').clear().type(empresa);

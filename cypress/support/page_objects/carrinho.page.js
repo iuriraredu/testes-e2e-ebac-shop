@@ -1,6 +1,6 @@
 class CarrinhoPage {
 
-    colocarItensNoCarrinhoERealizarCheckout(){
+    colocarItensNoCarrinho(){
         //ações do método
         for (let i = 0;i < 4 ; i++){
             cy.fixture('produtos').then((produto) => {

@@ -18,7 +18,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
         //TODO 
-        carrinhoPage.colocarItensNoCarrinhoERealizarCheckout();
+        carrinhoPage.colocarItensNoCarrinho();
+        cy.get('.dropdown-toggle > .mini-cart-items').should('contain', 4);
 
         let nome = faker.person.firstName();
         let sobrenome = faker.person.lastName();
