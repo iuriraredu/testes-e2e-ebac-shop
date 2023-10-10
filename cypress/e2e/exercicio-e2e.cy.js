@@ -27,6 +27,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         let email = faker.internet.email(nome, sobrenome);
 
         carrinhoPage.fazerCheckOut(nome, sobrenome, empresa, email);
+        cy.wait(10000); 
 
         cy.fixture('produtos').then((produto) => {
             for (let i = 0; i < 4; i++) {

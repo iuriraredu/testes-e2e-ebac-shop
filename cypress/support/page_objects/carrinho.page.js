@@ -28,10 +28,9 @@ class CarrinhoPage {
                 endereco[0].telefone, email
             );
         });
-
         cy.get('#payment_method_bacs').check();
         cy.get('#terms').check();
-        cy.get('#place_order').click(); 
+        cy.get('#place_order').click();
     }
 
 }
