@@ -32,7 +32,7 @@ Cypress.Commands.add('login', (usuario, senha) => {
 });
 
 Cypress.Commands.add('proximaPaginaDeProdutos', (quantidadeDeVezes) => {
-    for (let i = 0; i < quantidadeDeVezes; i++) {
+    for (let i = 1; i < quantidadeDeVezes; i++) {
         cy.get('.next').click();
     }
 });
